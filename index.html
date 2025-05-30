@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link href="./src/output.css" rel="stylesheet" />
+    </head>
+    <body class="bg-[#FFF5F6] w-screen overflow-x-hidden">
+        <header
+            class="grid grid-cols-2 justify-between items-center shadow-sm md:grid-cols-3"
+        >
+            <div class="ml-5">
+                <img src="./src/img/logo.png" alt="KADIOR-GLACE" />
+            </div>
+            <nav class="flex-grow">
+                <ul class="flex gap-3 mr-10 justify-center items-center">
+                    <li class="font-principal pt-10 pb-5">Accueil</li>
+                    <li
+                        class="font-principal bg-rouge-bordeau text-white pt-10 pb-5 px-3"
+                    >
+                        A propos
+                    </li>
+                    <li class="font-principal pt-10 pb-5">Produits</li>
+                    <li class="font-principal pt-10 pb-5">Contact</li>
+                </ul>
+            </nav>
+            <div class="reseaux hidden md:flex justify-center items-center">
+                <i
+                    class="fa-brands fa-facebook text-[28px] hover:text-red-500 hover:rotate-45 duration-75 cursor-pointer mx-2 text-rouge-bordeau"
+                ></i>
+                <i
+                    class="fa-brands fa-instagram text-[28px] hover:text-red-500 hover:rotate-45 duration-75 cursor-pointer mx-2 text-rouge-bordeau"
+                ></i>
+                <i
+                    class="fa-brands fa-linkedin text-[28px] hover:text-red-500 hover:rotate-45 duration-75 cursor-pointer mx-2 text-rouge-bordeau"
+                ></i>
+            </div>
+        </header>
+
+        <main>
+            <section
+                id="about"
+                class="flex flex-col justify-center items-center"
+            >
+                <h1
+                    class="font-principal text-rouge-bordeau text-[40px] my-8 font-bold md:font-extrabold md:text-[64px]"
+                >
+                    A propos de Kadior GLACE
+                </h1>
+                <div
+                    class="grid grid-row-2 md:grid-cols-2 justify-center items-center"
+                >
+                    <div class="ml-5">
+                        <img src="src/img/6.png" alt="" class="w-3xl" />
+                    </div>
+                    <div
+                        class="bg-rouge-bordeau p-20 m-15 rounded-[70px] font-principal text-white"
+                    >
+                        <h2 class="text-5xl mb-4">Kadior Glace</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Nulla optio obcaecati dolorem quasi culpa
+                            officiis totam a qui laudantium doloribus pariatur
+                            omnis quisquam autem, inventore blanditiis? Omnis
+                            nam tempore sapiente?
+                        </p>
+                        <button
+                            type="button"
+                            class="bg-[#F5B1C2] mt-10 p-3 rounded-2xl"
+                        >
+                            En savoir Plus
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section
+                id="ourProduct"
+                class="flex flex-col justify-center items-center"
+            >
+                <h1
+                    class="font-principal font-extrabold text-rouge-bordeau text-[64px] mt-5"
+                >
+                    Nos Produit
+                </h1>
+                <div
+                    class="flex flex-col justify-center items-center md:flex-row md:gap-6"
+                >
+                    <div>
+                        <img
+                            src="src/img/1.png"
+                            alt=""
+                            class="w-70 relative z-30 -bottom-34 -right-2"
+                        />
+
+                        <div
+                            class="bg-[#FFAFC5] p-4 w-[300px] h-[400px] rounded-[37px] font-principal text-white flex flex-col justify-center items-center"
+                        >
+                            <div
+                                class="w-[200px] h-[220px] relative -top-22 rounded-[100px] bg-[#F2A4B9]"
+                            ></div>
+
+                            <h2 class="mb-7 text-4xl font-principal font-bold">
+                                TEA
+                            </h2>
+                            <p>
+                                Teh terbuat dari daun teh pilihan yang cocok
+                                menjadi pendamping makanan apapun termasuk es
+                                krim.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            src="src/img/5.png"
+                            alt=""
+                            class="w-75 relative z-30 -bottom-34"
+                        />
+
+                        <div
+                            class="bg-[#F0D1A5] p-4 w-[300px] h-[400px] rounded-[37px] font-principal text-white flex flex-col justify-center items-center"
+                        >
+                            <div
+                                class="w-[200px] h-[220px] relative -top-22 rounded-[100px] bg-[#EFC68C]"
+                            ></div>
+
+                            <h2 class="mb-7 text-4xl font-principal font-bold">
+                                MILKSHAKE
+                            </h2>
+                            <p>
+                                Milkshake adalah minuman dingin dari campuran
+                                susu, es krim, dan sirup berperasa yang dikocok
+                                hingga berbusa.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            src="src/img/4.png"
+                            alt=""
+                            class="w-33 relative z-30 -bottom-38 -right-20"
+                        />
+
+                        <div
+                            class="bg-[#C2E298] p-4 w-[300px] h-[400px] rounded-[37px] font-principal text-white flex flex-col justify-center items-center"
+                        >
+                            <div
+                                class="w-[200px] h-[220px] relative -top-22 rounded-[100px] bg-[#B0D97B]"
+                            ></div>
+
+                            <h2 class="mb-7 text-4xl font-principal font-bold">
+                                ICE CREAM
+                            </h2>
+                            <p>
+                                Ice Cream terbuat dari susu berkualitas serta
+                                menggunakan bahan-bahan yang menyehatkan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-50 md:h-100">
+                    <img
+                        src="src/img/7.png"
+                        alt=""
+                        srcset=""
+                        class="w-50 relative bottom-200 -right-100 rotate-z-220 hidden md:block"
+                    />
+                    <button
+                        type="button"
+                        class="bg-[#F5B1C2] px-10 py-3 rounded-3xl text-white mt-20 md:mt-0"
+                    >
+                        Voir plus
+                    </button>
+                    <img
+                        src="src/img/3.png"
+                        alt=""
+                        srcset=""
+                        class="w-50 relative bottom-40 -right-100 hidden md:block"
+                    />
+                    <img
+                        src="src/img/2.png"
+                        alt=""
+                        srcset=""
+                        class="w-40 relative bottom-70 -left-100 hidden md:block"
+                    />
+                </div>
+            </section>
+        </main>
+
+        <footer
+            class="flex flex-col justify-center items-center bg-rouge-bordeau text-white font-principal"
+        >
+            <h1 class="text-5xl font-bold pt-3">KADIOR GLACE</h1>
+            <div class="flex justify-between w-full items-center border-t-2">
+                <div class="ml-20">
+                    <h2 class="text-3xl mb-4">Menu</h2>
+                    <ul>
+                        <li class="mb-3">Accueil</li>
+                        <li class="mb-3">A propos</li>
+                        <li class="mb-3">Produit</li>
+                        <li class="mb-3">Contact</li>
+                    </ul>
+                </div>
+                <div class="mr-20 mt-5">
+                    <h2 class="text-3xl mb-4">Suivez nous</h2>
+                    <ul>
+                        <li class="mb-3">
+                            <i class="fa-brands fa-facebook text-[28px]"></i>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-brands fa-instagram text-[28px]"></i>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-brands fa-linkedin text-[28px]"></i>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-brands fa-linkedin text-[28px]"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mb-3">© Copyright Glace 2025 by f@ll coding</p>
+        </footer>
+    </body>
+</html>
